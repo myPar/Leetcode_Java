@@ -6,11 +6,11 @@ import java.util.Scanner;
 
 public class CloneGraph {
     static class Node {
-        public int val;
-        public List<Node> neighbors;
+        private int val;
+        private List<Node> neighbors;
 
         // default constructor
-        public Node(int value) {
+        Node(int value) {
             val = value;
             neighbors = new ArrayList<>();
         }
